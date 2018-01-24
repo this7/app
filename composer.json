@@ -1,0 +1,12 @@
+{
+    "name": "this7/app",
+    "require": {
+        "this7/this7": "*"
+    },
+    "authors": [
+        {
+            "name": "qinuoyun",
+            "email": "qinuoyun@qq.com"
+        }
+    ]
+}
