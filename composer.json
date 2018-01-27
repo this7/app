@@ -17,7 +17,7 @@
     "require":
     {
         "php": ">=5.6.0",
-        "this7/framework": "dev-master"
+        "this7/this7": "dev-master"
     },
     "autoload":
     {
