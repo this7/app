@@ -1,0 +1,203 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a8850834bd4d18c4b5859f11e3a0cd4e",
+    "packages": [
+        {
+            "name": "this7/cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/cache.git",
+                "reference": "cb29bafeb3318d4bd951b1b1010ed471a879081e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/cache/cb29bafeb3318d4bd951b1b1010ed471a879081e.zip",
+                "reference": "cb29bafeb3318d4bd951b1b1010ed471a879081e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "this7/config": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "this7\\cache\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP cache class.",
+            "homepage": "https://github.com/this7/cache",
+            "keywords": [
+                "php-frame",
+                "this7",
+                "this7 cache"
+            ],
+            "time": "2018-01-27T18:40:54+00:00"
+        },
+        {
+            "name": "this7/config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/config.git",
+                "reference": "da608c119240096fd19a166a3301171a733f46da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/config/da608c119240096fd19a166a3301171a733f46da.zip",
+                "reference": "da608c119240096fd19a166a3301171a733f46da",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/infrastructure.php",
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "this7\\config\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP config class.",
+            "homepage": "https://github.com/this7/config",
+            "keywords": [
+                "php-frame",
+                "this7",
+                "this7 config"
+            ],
+            "time": "2018-01-27T18:41:27+00:00"
+        },
+        {
+            "name": "this7/logger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/logger.git",
+                "reference": "5dca7736abe84e31bcdd96ef121358c0150ce9ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/logger/5dca7736abe84e31bcdd96ef121358c0150ce9ea.zip",
+                "reference": "5dca7736abe84e31bcdd96ef121358c0150ce9ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "this7/config": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "this7\\logger\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP logger class.",
+            "homepage": "https://github.com/this7/logger",
+            "keywords": [
+                "php-frame",
+                "this7",
+                "this7 logger"
+            ],
+            "time": "2018-01-27T18:41:19+00:00"
+        },
+        {
+            "name": "this7/this7",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/this7.git",
+                "reference": "f956b9d4943399acc0809003a89d701015396d61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/this7/f956b9d4943399acc0809003a89d701015396d61.zip",
+                "reference": "f956b9d4943399acc0809003a89d701015396d61",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "this7/cache": "dev-master",
+                "this7/config": "dev-master",
+                "this7/logger": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "this7\\framework\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP framework class.",
+            "homepage": "https://github.com/this7/framework",
+            "keywords": [
+                "php-frame",
+                "this7",
+                "this7 framework"
+            ],
+            "time": "2018-01-27T18:49:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "this7/this7": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": []
+}
