@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/cache.git",
-                "reference": "cb29bafeb3318d4bd951b1b1010ed471a879081e"
+                "reference": "db4875e03fd771ce3bc640e21161cc277b7829b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/cache/cb29bafeb3318d4bd951b1b1010ed471a879081e.zip",
-                "reference": "cb29bafeb3318d4bd951b1b1010ed471a879081e",
+                "url": "https://files.phpcomposer.com/files/this7/cache/db4875e03fd771ce3bc640e21161cc277b7829b6.zip",
+                "reference": "db4875e03fd771ce3bc640e21161cc277b7829b6",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "this7",
                 "this7 cache"
             ],
-            "time": "2018-01-27T18:40:54+00:00"
+            "time": "2018-01-27T20:17:51+00:00"
         },
         {
             "name": "this7/config",
@@ -56,12 +56,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/config.git",
-                "reference": "da608c119240096fd19a166a3301171a733f46da"
+                "reference": "cdbb503d6ee1acb4bb3639745611138074feea36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/config/da608c119240096fd19a166a3301171a733f46da.zip",
-                "reference": "da608c119240096fd19a166a3301171a733f46da",
+                "url": "https://files.phpcomposer.com/files/this7/config/cdbb503d6ee1acb4bb3639745611138074feea36.zip",
+                "reference": "cdbb503d6ee1acb4bb3639745611138074feea36",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,7 @@
                 "this7",
                 "this7 config"
             ],
-            "time": "2018-01-27T18:41:27+00:00"
+            "time": "2018-01-27T20:17:38+00:00"
         },
         {
             "name": "this7/logger",
@@ -103,12 +103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/logger.git",
-                "reference": "5dca7736abe84e31bcdd96ef121358c0150ce9ea"
+                "reference": "64e0d96cef45b4870cac01c644bfdd8b0557e41f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/logger/5dca7736abe84e31bcdd96ef121358c0150ce9ea.zip",
-                "reference": "5dca7736abe84e31bcdd96ef121358c0150ce9ea",
+                "url": "https://files.phpcomposer.com/files/this7/logger/64e0d96cef45b4870cac01c644bfdd8b0557e41f.zip",
+                "reference": "64e0d96cef45b4870cac01c644bfdd8b0557e41f",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,94 @@
                 "this7",
                 "this7 logger"
             ],
-            "time": "2018-01-27T18:41:19+00:00"
+            "time": "2018-01-27T20:17:59+00:00"
+        },
+        {
+            "name": "this7/routes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/routes.git",
+                "reference": "e04234b977cb3053bddfd17523c0ae9ed2c874b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/routes/e04234b977cb3053bddfd17523c0ae9ed2c874b3.zip",
+                "reference": "e04234b977cb3053bddfd17523c0ae9ed2c874b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "this7/config": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "this7\\routes\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP framework router class.",
+            "homepage": "https://github.com/this7/routes",
+            "keywords": [
+                "php",
+                "php-router",
+                "router"
+            ],
+            "time": "2018-01-27T20:28:45+00:00"
+        },
+        {
+            "name": "this7/sql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/sql.git",
+                "reference": "474040392fca7cc8b80b990985c6319215994ad9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/sql/474040392fca7cc8b80b990985c6319215994ad9.zip",
+                "reference": "474040392fca7cc8b80b990985c6319215994ad9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.6",
+                "this7/config": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "this7\\sql\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP sql class.",
+            "homepage": "https://github.com/this7/sql",
+            "keywords": [
+                "php-sql",
+                "this7"
+            ],
+            "time": "2018-01-26T15:53:04+00:00"
         },
         {
             "name": "this7/this7",
@@ -147,19 +234,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/this7.git",
-                "reference": "f956b9d4943399acc0809003a89d701015396d61"
+                "reference": "b93c370f584e54d9c5f07fe956b93f5576c11544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/this7/f956b9d4943399acc0809003a89d701015396d61.zip",
-                "reference": "f956b9d4943399acc0809003a89d701015396d61",
+                "url": "https://files.phpcomposer.com/files/this7/this7/b93c370f584e54d9c5f07fe956b93f5576c11544.zip",
+                "reference": "b93c370f584e54d9c5f07fe956b93f5576c11544",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.0",
                 "this7/cache": "dev-master",
                 "this7/config": "dev-master",
-                "this7/logger": "dev-master"
+                "this7/logger": "dev-master",
+                "this7/routes": "dev-master",
+                "this7/sql": "dev-master",
+                "this7/util": "dev-master",
+                "this7/view": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -185,7 +276,94 @@
                 "this7",
                 "this7 framework"
             ],
-            "time": "2018-01-27T18:49:52+00:00"
+            "time": "2018-01-27T20:32:04+00:00"
+        },
+        {
+            "name": "this7/util",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/util.git",
+                "reference": "a0e36d94da6d47f9c354df69ddace17c3c3a75cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/util/a0e36d94da6d47f9c354df69ddace17c3c3a75cd.zip",
+                "reference": "a0e36d94da6d47f9c354df69ddace17c3c3a75cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.6",
+                "this7/config": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "this7\\util\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP util class.",
+            "homepage": "https://github.com/this7/util",
+            "keywords": [
+                "php-util",
+                "this7"
+            ],
+            "time": "2018-01-26T15:53:21+00:00"
+        },
+        {
+            "name": "this7/view",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/view.git",
+                "reference": "9e7518ae554afd4a9200d83ea4c7b2da6f80001b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/view/9e7518ae554afd4a9200d83ea4c7b2da6f80001b.zip",
+                "reference": "9e7518ae554afd4a9200d83ea4c7b2da6f80001b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.6",
+                "this7/cache": "dev-master",
+                "this7/config": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "this7\\view\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP view class.",
+            "homepage": "https://github.com/this7/view",
+            "keywords": [
+                "php-view",
+                "this7"
+            ],
+            "time": "2018-01-26T13:44:56+00:00"
         }
     ],
     "packages-dev": [],
