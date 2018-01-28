@@ -17,13 +17,16 @@
     "require":
     {
         "php": ">=5.6.0",
-        "this7/this7": "dev-master"
+        "this7/this7": "dev-master",
+        "this7/login": "dev-master",
+        "this7/request": "dev-master",
+        "this7/wechat": "dev-master"
     },
     "autoload":
     {
-        "psr-4":
-        {
-            "this7\\app\\": ""
-        }
+        "classmap": [
+            "server/controllers",
+            "server/models"
+        ]
     }
 }

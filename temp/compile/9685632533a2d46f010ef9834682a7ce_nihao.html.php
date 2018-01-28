@@ -1,0 +1,1 @@
+<!--client/class.html--><div>nihao </div>

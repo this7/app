@@ -1,0 +1,11 @@
+https://github.com/this7/app.git
+https://github.com/this7/this7.git
+https://github.com/this7/config.git
+https://github.com/this7/routes.git
+https://github.com/this7/util.git
+https://github.com/this7/cache.git
+https://github.com/this7/logger.git
+https://github.com/this7/view.git
+https://github.com/this7/sql.git
+
+https://github.com/this7/tags-uikit.git

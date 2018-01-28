@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>This7 新模式MVC 实现数据前后端真正隔离，告别PHP模版引擎</title>
+    {:$this7_frame}
+    <link rel="stylesheet" type="text/css" href="{:$this7_path}/index.css?{:$this7_time}">
+    <script>var this7_sky = '{:$this7_sky}';</script>
+
+	<script src="{:$this7_path}/index.js?{:$this7_time}"></script>
+    <style type="text/css">{:$this7_css}</style>
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+<script id="template" type="text/template">{:$this7_html}</script>
+<script>{:$this7_js}</script>
+</html>

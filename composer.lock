@@ -56,12 +56,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/config.git",
-                "reference": "cdbb503d6ee1acb4bb3639745611138074feea36"
+                "reference": "6af6adc76ad4d042898a9d9506c607b8d4e35a56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/config/cdbb503d6ee1acb4bb3639745611138074feea36.zip",
-                "reference": "cdbb503d6ee1acb4bb3639745611138074feea36",
+                "url": "https://files.phpcomposer.com/files/this7/config/6af6adc76ad4d042898a9d9506c607b8d4e35a56.zip",
+                "reference": "6af6adc76ad4d042898a9d9506c607b8d4e35a56",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,7 @@
                 "this7",
                 "this7 config"
             ],
-            "time": "2018-01-27T20:17:38+00:00"
+            "time": "2018-01-28T07:17:25+00:00"
         },
         {
             "name": "this7/logger",
@@ -147,17 +147,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/routes.git",
-                "reference": "e04234b977cb3053bddfd17523c0ae9ed2c874b3"
+                "reference": "df730b976b31c26a81c6302abf6f2107af6997b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/routes/e04234b977cb3053bddfd17523c0ae9ed2c874b3.zip",
-                "reference": "e04234b977cb3053bddfd17523c0ae9ed2c874b3",
+                "url": "https://files.phpcomposer.com/files/this7/routes/df730b976b31c26a81c6302abf6f2107af6997b9.zip",
+                "reference": "df730b976b31c26a81c6302abf6f2107af6997b9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "this7/config": "dev-master"
+                "this7/config": "dev-master",
+                "this7/view": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -183,7 +184,7 @@
                 "php-router",
                 "router"
             ],
-            "time": "2018-01-27T20:28:45+00:00"
+            "time": "2018-01-28T07:15:07+00:00"
         },
         {
             "name": "this7/sql",
@@ -191,16 +192,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/sql.git",
-                "reference": "474040392fca7cc8b80b990985c6319215994ad9"
+                "reference": "dbb55bd137dd6c50ea73b0e87c315bba03c96e3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/sql/474040392fca7cc8b80b990985c6319215994ad9.zip",
-                "reference": "474040392fca7cc8b80b990985c6319215994ad9",
+                "url": "https://files.phpcomposer.com/files/this7/sql/dbb55bd137dd6c50ea73b0e87c315bba03c96e3d.zip",
+                "reference": "dbb55bd137dd6c50ea73b0e87c315bba03c96e3d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6.6",
+                "php": ">=5.3.3",
                 "this7/config": "dev-master"
             },
             "type": "library",
@@ -220,13 +221,102 @@
                     "homepage": "http://www.ub-u7.com/"
                 }
             ],
-            "description": "this7 PHP sql class.",
+            "description": "this7 PHP framework router class.",
             "homepage": "https://github.com/this7/sql",
             "keywords": [
-                "php-sql",
-                "this7"
+                "php",
+                "php-router",
+                "router"
             ],
-            "time": "2018-01-26T15:53:04+00:00"
+            "time": "2018-01-28T07:17:43+00:00"
+        },
+        {
+            "name": "this7/tags",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/tags.git",
+                "reference": "e312524819df4cc6be8df1f77510479d27758d4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/tags/e312524819df4cc6be8df1f77510479d27758d4c.zip",
+                "reference": "e312524819df4cc6be8df1f77510479d27758d4c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "this7/config": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "this7\\tags\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP framework tags class.",
+            "homepage": "https://github.com/this7/tags",
+            "keywords": [
+                "php",
+                "php-tags",
+                "tags"
+            ],
+            "time": "2018-01-28T09:16:48+00:00"
+        },
+        {
+            "name": "this7/tags-uikit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/this7/tags-uikit.git",
+                "reference": "5cc940b580cf5f416b8d11da98db045c8b62f2a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/this7/tags-uikit/5cc940b580cf5f416b8d11da98db045c8b62f2a5.zip",
+                "reference": "5cc940b580cf5f416b8d11da98db045c8b62f2a5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "this7/tags": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "this7\\tags_uikit\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "this7 PHP framework tags-uikit class.",
+            "homepage": "https://github.com/this7/tags-uikit",
+            "keywords": [
+                "php",
+                "php-tags-uikit",
+                "tags-uikit"
+            ],
+            "time": "2018-01-28T09:43:26+00:00"
         },
         {
             "name": "this7/this7",
@@ -234,12 +324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/this7.git",
-                "reference": "b93c370f584e54d9c5f07fe956b93f5576c11544"
+                "reference": "dc6991eb8790cea827a8e0a0342e8068baa5a85a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/this7/b93c370f584e54d9c5f07fe956b93f5576c11544.zip",
-                "reference": "b93c370f584e54d9c5f07fe956b93f5576c11544",
+                "url": "https://files.phpcomposer.com/files/this7/this7/dc6991eb8790cea827a8e0a0342e8068baa5a85a.zip",
+                "reference": "dc6991eb8790cea827a8e0a0342e8068baa5a85a",
                 "shasum": ""
             },
             "require": {
@@ -276,7 +366,7 @@
                 "this7",
                 "this7 framework"
             ],
-            "time": "2018-01-27T20:32:04+00:00"
+            "time": "2018-01-28T07:17:33+00:00"
         },
         {
             "name": "this7/util",
@@ -284,17 +374,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/util.git",
-                "reference": "a0e36d94da6d47f9c354df69ddace17c3c3a75cd"
+                "reference": "9ac207a04926644b2becb46e54d3d7ac26d98e5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/util/a0e36d94da6d47f9c354df69ddace17c3c3a75cd.zip",
-                "reference": "a0e36d94da6d47f9c354df69ddace17c3c3a75cd",
+                "url": "https://files.phpcomposer.com/files/this7/util/9ac207a04926644b2becb46e54d3d7ac26d98e5c.zip",
+                "reference": "9ac207a04926644b2becb46e54d3d7ac26d98e5c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.6",
-                "this7/config": "dev-master"
+                "this7/config": "dev-master",
+                "this7/logger": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -319,7 +410,7 @@
                 "php-util",
                 "this7"
             ],
-            "time": "2018-01-26T15:53:21+00:00"
+            "time": "2018-01-28T02:57:16+00:00"
         },
         {
             "name": "this7/view",
@@ -327,18 +418,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/view.git",
-                "reference": "9e7518ae554afd4a9200d83ea4c7b2da6f80001b"
+                "reference": "0cdfc306ca216a3f62b92dbc22d9ccd3e2a105b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/view/9e7518ae554afd4a9200d83ea4c7b2da6f80001b.zip",
-                "reference": "9e7518ae554afd4a9200d83ea4c7b2da6f80001b",
+                "url": "https://files.phpcomposer.com/files/this7/view/0cdfc306ca216a3f62b92dbc22d9ccd3e2a105b3.zip",
+                "reference": "0cdfc306ca216a3f62b92dbc22d9ccd3e2a105b3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.6",
                 "this7/cache": "dev-master",
-                "this7/config": "dev-master"
+                "this7/config": "dev-master",
+                "this7/tags-uikit": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -363,7 +455,7 @@
                 "php-view",
                 "this7"
             ],
-            "time": "2018-01-26T13:44:56+00:00"
+            "time": "2018-01-28T09:44:24+00:00"
         }
     ],
     "packages-dev": [],
