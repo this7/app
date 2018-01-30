@@ -24,9 +24,20 @@
     },
     "autoload":
     {
+        "psr-4":
+        {
+            "server\\controllers\\": "server/controllers",
+            "server\\connector\\": "server/connector",
+            "server\\models\\": "server/models"
+        },
         "classmap": [
             "server/controllers",
+            "server/connector",
             "server/models"
         ]
+    },
+    "config":
+    {
+        "optimize-autoloader": true
     }
 }
