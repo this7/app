@@ -1,7 +1,16 @@
 <?php
 class demo {
     public function index() {
-        echo "conveyancer" . md5("conveyancer");
+        R(function ($e) {
+            P($this->nihao());
+            return 124;
+        });
+    }
+
+    public function nihao($value = '') {
+        R(function ($e) {
+            return array("__def" => 1, "ddd" => 1, "ndeq" => "23123", "nihao" => 3);
+        });
     }
 
     public function copy1($value = '') {

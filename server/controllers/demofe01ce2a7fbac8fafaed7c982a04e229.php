@@ -2,7 +2,16 @@
 namespace server\controllers;
 class demofe01ce2a7fbac8fafaed7c982a04e229 {
     public function index() {
-        echo "conveyancer" . md5("conveyancer");
+        return R(function ($e){extract($e);
+            P($this->nihao());
+            return 124;
+        });
+    }
+
+    public function nihao($value = '') {
+        return R(function ($e){extract($e);
+            return array("__def" => 1, "ddd" => 1, "ndeq" => "23123", "nihao" => 3);
+        });
     }
 
     public function copy1($value = '') {
