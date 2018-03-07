@@ -1,18 +1,3 @@
 # app
 This7 应用下载
-```
-composer update
-https://github.com/this7/logger
-https://github.com/this7/cache
-https://github.com/this7/util
-https://github.com/this7/config
-https://github.com/this7/this7
-https://github.com/this7/tags
-https://github.com/this7/wechat
-https://github.com/this7/tags-uikit
-https://github.com/this7/view
-https://github.com/this7/request
-https://github.com/this7/routes
-https://github.com/this7/login
-https://github.com/this7/sql
-```
+ This7 框架是一个为用 PHP 程序语言编写网络应用程序的人员提供的软件包。 提供强大的、完整的类库包，满足开发中的项目需求，This7 框架可以将需要完成的任务代码量最小化，大大提高项目开发效率与质量，当然使用是非常简便、快捷的。高效的核心编译处理机制让系统运行更快，提供丰富的的错误解决方案，让修正代码变得更快速。
