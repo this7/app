@@ -4,5 +4,18 @@
  * @Author: qinuoyun
  * @Date:   2018-01-31 12:25:09
  * @Last Modified by:   qinuoyun
- * @Last Modified time: 2018-01-31 12:25:39
+ * @Last Modified time: 2018-03-07 11:26:34
  */
+
+class index {
+
+    public function index() {
+        R(function ($e) {
+            $data = array(
+                "name" => "张三",
+                "sex"  => "男",
+            );
+            return [0, '测试数据', $data];
+        });
+    }
+}

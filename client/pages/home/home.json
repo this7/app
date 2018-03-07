@@ -1,0 +1,9 @@
+ {
+    "navigationStyle": "default",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F52E39",
+    "navigationBarTitleText": "门票预订系统",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  }

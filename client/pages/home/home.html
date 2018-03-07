@@ -1,0 +1,15 @@
+<div>
+    {{title}}
+    <ul>
+        <li b-repeat="item:items">
+             {{item.title}}
+             {{user.name}}
+        </li>
+    </ul>
+        <p>姓名:{{user.name}}</p>
+    <p>年龄:{{user.age}}</p>
+    <div b-if="show" id="#sub_app">
+        <h1>如果show为真,我们就显示</h1>
+        <h1>如果show为假,我们就不显示</h1>
+    </div>
+</div>
