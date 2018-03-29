@@ -1,15 +1,39 @@
 <div>
-    {{title}}
-    <ul>
-        <li b-repeat="item:items">
-             {{item.title}}
-             {{user.name}}
+    <div wx:if="{{a == 1}}">
+        <div wx:if="{{c == 1}}"> c1 </div>
+        <div wx:elif="{{c == 2}}"> c2 </div>
+        <div wx:else> b3 </div>
+    </div>
+    <div wx:elif="{{a == 2}}">
+        a2
+    </div>
+    <div wx:elif="{{a == 3}}">
+        a3
+    </div>
+    <div wx:else>
+        a4
+    </div>
+    <div wx:if="{{b == 1}}"> b1 </div>
+    <div wx:elif="{{b == 2}}"> b2 </div>
+    <div wx:else> b3 </div>
+    <!--<ul>
+        <li wx:for="{{order}} " wx:key="{{index}} " wx:for-index="index " wx:for-item="nihao ">
+            {{nihao.title}} {{nihao.sn}}{{title}}{{index}}
         </li>
     </ul>
-        <p>姓名:{{user.name}}</p>
-    <p>年龄:{{user.age}}</p>
-    <div b-if="show" id="#sub_app">
-        <h1>如果show为真,我们就显示</h1>
+           <p wx:for="{{order}} " wx:key="{{index}} " wx:for-index="index " wx:for-item="nihao ">
+            {{nihao.title}} {{nihao.sn}}{{title}}
+        </p> -->
+    <!--     {{title}} {{title}} {{title}} {{title}} {{title}}
+    <div b-if="show " id="#sub_app ">
+        <h1>如果show为真,我们就显示</h1> {{title}}
         <h1>如果show为假,我们就不显示</h1>
     </div>
+    <p>姓名:{{user.name}}</p>
+    <p>年龄:{{user.age}}</p>
+    <ul>
+        <li b-repeat="item:items ">
+            {{item.title}} {{user.name}}
+        </li>
+    </ul> -->
 </div>

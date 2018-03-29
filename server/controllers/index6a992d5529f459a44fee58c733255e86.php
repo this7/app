@@ -1,11 +1,12 @@
 <?php
 namespace server\controllers;
+use \Exception;
 /**
  * This7 Frame
  * @Author: qinuoyun
  * @Date:   2018-01-31 12:25:09
  * @Last Modified by:   qinuoyun
- * @Last Modified time: 2018-03-07 11:26:34
+ * @Last Modified time: 2018-03-29 09:58:33
  */
 
 class index6a992d5529f459a44fee58c733255e86 {
@@ -18,5 +19,9 @@ class index6a992d5529f459a44fee58c733255e86 {
             );
             return [0, '测试数据', $data];
         });
+    }
+
+    public function demo() {
+        weapp::demo();
     }
 }

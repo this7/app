@@ -1,18 +1,23 @@
 var a = Page({
     data: {
         title: "测试标题用户名",
-        show: true,
+        a:1,
+        b:2,
+        c:3,
         user: {
             name: 'youngwind',
             age: 24
         },
-        items: [{
+        order: [{
+                sn: 148946545,
                 title: 'aaa'
             },
             {
+                  sn: 148946546,
                 title: 'bbb'
             },
             {
+                sn: 148946547,
                 title: 'ccc'
             }
         ]
