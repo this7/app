@@ -6,7 +6,7 @@ use \Exception;
  * @Author: qinuoyun
  * @Date:   2018-01-31 12:25:09
  * @Last Modified by:   qinuoyun
- * @Last Modified time: 2018-03-29 09:58:33
+ * @Last Modified time: 2018-03-29 10:50:34
  */
 
 class index6a992d5529f459a44fee58c733255e86 {
@@ -22,6 +22,6 @@ class index6a992d5529f459a44fee58c733255e86 {
     }
 
     public function demo() {
-        weapp::demo();
+
     }
 }
