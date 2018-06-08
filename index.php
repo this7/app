@@ -1,5 +1,5 @@
 <?php
-define('LOGIN', "true");
+defined('DEBUG') or define('DEBUG', false); //DEBUG调试器
 
 // Autoload 自动载入
 require './vendor/autoload.php';

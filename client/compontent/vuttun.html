@@ -1,0 +1,21 @@
+<template>
+    <div v-on:click="count++">You clicked11 me {{ count }}{{name}} {{age}}times.
+    </div>
+</template>
+<style type="text/css">
+* {
+    margin: 0;
+    padding: 0
+}
+</style>
+<script type="text/javascript">
+{
+    name: 'vutton',
+    props: ['name', 'age'],
+    data: function() {
+        return {
+            count: 0
+        }
+    }
+}
+</script>

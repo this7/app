@@ -21,8 +21,7 @@
     },
     "autoload":
     {
-        "psr-4":
-        {
+        "psr-4": {
             "server\\controllers\\": "server/controllers",
             "server\\connector\\": "server/connector",
             "server\\models\\": "server/models"
