@@ -1,11 +1,6 @@
 {
-  "window": {
-    "navigationStyle": "default",
-    "backgroundColor": "#ffffff",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F52E39",
-    "navigationBarTitleText": "筑梦·门票预订",
-    "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": true
-  }
+  "title": "这是This7客户端应用",
+  "script":[
+  		
+  ]
 }

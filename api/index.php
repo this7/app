@@ -1,6 +1,6 @@
 <?php
 class index {
     public function index() {
-        echo "欢迎访问API";
+        echo "安装方法：composer create-project this7/app blog --prefer-dist";
     }
 }
