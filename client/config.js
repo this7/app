@@ -1,8 +1,8 @@
 /*
  * @Author: qinuoyun
  * @Date:   2018-02-24 15:10:04
- * @Last Modified by:   qinuoyun
- * @Last Modified time: 2018-02-24 15:12:32
+ * @Last Modified by:   else
+ * @Last Modified time: 2018-06-22 09:27:53
  * 配置文件
  */
 
@@ -15,10 +15,10 @@ var config = {
     service: {
         host,
         //上传图片
-        uploadImg: `${host}/api/upload/uploadImg`,
+        getTableList: `${host}/api/table/get_list`,
 
         // 登录地址，用于建立会话
-        loginUrl: `${host}/api/login/login`,
+        getTableField: `${host}/api/table/get_field`,
 
         // 测试的请求地址，用于测试会话
         requestUrl: `${host}/api/login/info`

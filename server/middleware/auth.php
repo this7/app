@@ -9,8 +9,10 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://www.ub-7.com
  */
-class index {
-    public function index() {
-        echo "安装方法：composer create-project this7/app blog --prefer-dist";
+namespace server\middleware;
+class auth {
+    //执行中间件
+    public function run() {
+
     }
 }

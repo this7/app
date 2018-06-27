@@ -9,16 +9,10 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://www.ub-7.com
  */
-namespace server\models;
-
-class login {
-
-    public function __construct() {
-        # code...
-    }
-
-    public static function login($value = '') {
-
-        return [];
+namespace server\middleware;
+class overall {
+    //执行中间件
+    public function run() {
+        echo "我执行了";
     }
 }

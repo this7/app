@@ -21,9 +21,11 @@
     },
     "autoload":
     {
-        "psr-4": {
+        "psr-4":
+        {
             "server\\controllers\\": "server/controllers",
             "server\\connector\\": "server/connector",
+            "server\\middleware\\": "server/middleware",
             "server\\models\\": "server/models"
         },
         "classmap": [

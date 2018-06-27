@@ -2,8 +2,8 @@
 namespace server\connector;
 use \this7\framework\staticize;
 
-class util05c7e24700502a079cdd88012b5a76d3 extends staticize{
+class middlewareb200f0642a4dc4d9d66162920860c3f0 extends staticize{
     public static function getAppAccessor() {
-        return 'util';
+        return 'middleware';
     }
 }

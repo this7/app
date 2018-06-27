@@ -1,6 +1,13 @@
 {
-  "title": "这是This7客户端应用",
-  "script":[
-  		
-  ]
+    "title": "增删该查代码自动生成器",
+    "style": [
+        "app.css",
+        "https://cdn.bootcss.com/iview/2.14.0/styles/iview.css"
+    ],
+    "script": [
+        "config.js",
+        "vendor/vue-sdk/index.js",
+        "vendor/this7-sdk/index.js",
+        "vendor/iview-sdk/index.js"
+    ]
 }
