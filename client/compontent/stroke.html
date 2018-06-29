@@ -1,4 +1,4 @@
-9<template>
+<template>
     <div v-on:click="count++">You clicked11 me {{ count }}{{name}} {{age}}times.
     </div>
 </template>
@@ -9,9 +9,9 @@
 }
 </style>
 <script type="text/javascript">
-{
-    name: 'vutton',
-    props: ['name', 'age'],
+export default {
+    name: 'stroke',
+    props: ["name", "age"],
     data: function() {
         return {
             count: 0

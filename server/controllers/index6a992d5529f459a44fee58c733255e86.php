@@ -13,6 +13,7 @@ use \Exception;
  */
 class index6a992d5529f459a44fee58c733255e86 {
     public function index() {
+        echo "欢迎使用This7框架<br>";
         echo "安装方法：composer create-project this7/app blog --prefer-dist";
     }
 }

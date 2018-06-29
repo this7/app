@@ -13,6 +13,6 @@ namespace server\middleware;
 class overall {
     //执行中间件
     public function run() {
-        echo "我执行了";
+        echo "我是全局中间件<br>";
     }
 }

@@ -1,89 +1,35 @@
 <template>
-    <div>
-        <div class="table_list">
-            <label>数据表</label>
-            <i-select v-model="au_table" style="width:200px" @on-change="getFieldList()">
-                <i-option v-for="item in table_list" :value="item.value" :key="item.value">{{ item.label }}</i-option>
-            </i-select>
-            <label>字段</label>
-            <i-select v-model="au_field" multiple style="width:200px">
-                <i-option v-for="item in field_list" :value="item.value" :key="item.value">{{ item.label }}</i-option>
-            </i-select>
-            <label>操作</label>
-            <i-select v-model="au_action" style="width:200px">
-                <i-option v-for="item in action_list" :value="item.value" :key="item.value">{{ item.label }}</i-option>
-            </i-select>
-        </div>
+    <div class="application">
+        {{message}}
+        <stroke name="This" age="2018"></stroke>
     </div>
 </template>
 <style type="text/css">
-/*注解测试*/
-
 body {
     margin: 0;
     padding: 0
 }
+
+.application {
+    font-size: 5rem;
+}
 </style>
 <script type="text/javascript">
-{
+export default {
     data: {
-        table_list: [],
-        field_list: [],
-        action_list: [{
-                value: 'selete',
-                label: '查询'
-            },
-            {
-                value: 'update',
-                label: '更新'
-            },
-            {
-                value: 'insert',
-                label: '写入'
-            },
-            {
-                value: 'delete',
-                label: '删除'
-            }
-        ],
-        au_action: 'selete',
-        au_table: '',
-        au_field: ''
+        message: '欢迎使用This7框架'
     },
     method: {
 
     },
     mounted: function() {
-        var that = this;
-        client.ajax({
-            url: config.service.getTableList,
-            method: "POST",
-            data: { "UID": 1 },
-            success: function(e) {
-                that.table_list = e.data;
-            },
-            error: function(e) {
 
-            }
-        });
     },
     methods: {
-        getFieldList: function() {
-            var that = this;
-            client.ajax({
-                url: config.service.getTableField,
-                method: "POST",
-                data: { "table": that.au_table},
-                success: function(e) {
-                        that.field_list = e.data;
-                },
-                error: function(e) {
 
-                }
-            });
-        }
     }
 }
 </script>
 <json>
+    {"components":{"stroke":"compontent/stroke"}}
 </json>
