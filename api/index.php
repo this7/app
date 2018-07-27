@@ -11,7 +11,12 @@
  */
 class index {
     public function index() {
-        echo "欢迎使用This7框架<br>";
-        echo "安装方法：composer create-project this7/app blog --prefer-dist";
+        echo "API安装方法：composer create-project this7/app blog --prefer-dist<br>";
+        echo "当前路径：" . ROOT . "<br>";
+        echo "当前网址：" . URL . "<br>";
+    }
+
+    public function demo($value = '') {
+
     }
 }

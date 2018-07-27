@@ -2,8 +2,8 @@
 namespace server\connector;
 use \this7\framework\staticize;
 
-class view1bda80f2be4d3658e0baa43fbe7ae8c1 extends staticize{
+class debugad42f6697b035b7580e4fef93be20b4d extends staticize{
     public static function getAppAccessor() {
-        return 'view';
+        return 'debug';
     }
 }

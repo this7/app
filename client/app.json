@@ -1,13 +1,12 @@
 {
     "title": "增删该查代码自动生成器",
     "style": [
-        "app.css",
-        "https://cdn.bootcss.com/iview/2.14.0/styles/iview.css"
+        "app.css"
     ],
     "script": [
         "config.js",
-        "vendor/vue-sdk/index.js",
+        "vendor/babel-sdk/index.js",
         "vendor/this7-sdk/index.js",
-        "vendor/iview-sdk/index.js"
+        "vendor/vue-sdk/index.js"
     ]
 }

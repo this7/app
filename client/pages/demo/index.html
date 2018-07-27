@@ -1,15 +1,16 @@
 <template>
-
+    <?php echo 111;?>
 </template>
 <style type="text/css">
 /*注解测试*/
+
 body {
     margin: 0;
     padding: 0
 }
 </style>
-<script type="text/javascript">export default 
-{
+<script type="text/javascript">
+export default {
     data: {
         msg: 'hello',
         name: 'xuexue'
@@ -18,18 +19,17 @@ body {
 
     },
     mounted: function() {
-        // client.ajax({
-        //     url: 'http://www.this7.com/api/index/demo',
-        //     error: function(e) {
-        //         console.log(e);
-        //     },
-        //     success: function(e) {
-        //         console.log(e)
-        //     }
-        // });
+        client.ajax({
+            url: 'http://www.this7.com/api/index/demo',
+            error: function(e) {
+                console.log(e);
+            },
+            success: function(e) {
+                console.log(e)
+            }
+        });
     }
 }
 </script>
 <json>
-
 </json>
