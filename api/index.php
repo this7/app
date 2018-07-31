@@ -17,6 +17,8 @@ class index {
     }
 
     public function demo($value = '') {
-
+        2333
+        ret(0, "你好", array("UID" => 1))
+        1
     }
 }

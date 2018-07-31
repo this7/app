@@ -19,8 +19,8 @@ class index6a992d5529f459a44fee58c733255e86 {
     }
 
     public function demo($value = '') {
-        $a = request::get(["url" => "http://www.this7.fun/demo.php"]);
-
-        P($a);
+        2333
+        ret(0, "你好", array("UID" => 1))
+        1
     }
 }
