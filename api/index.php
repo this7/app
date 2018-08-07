@@ -16,9 +16,21 @@ class index {
         echo "当前网址：" . URL . "<br>";
     }
 
-    public function demo($value = '') {
-        2333
-        ret(0, "你好", array("UID" => 1))
-        1
+    public function save($value = '') {
+        # code...
+    }
+
+    public function test($value = '') {
+        $ddd = request::post(array(
+            'url'  => 'http://www.this7.com/demo.php',
+            'data' => array(
+                'body' => 'const getMessage = () => "Hello World";document.getElementById(\'output\').innerHTML = getMessage();',
+            ),
+        ));
+        P($ddd);
+    }
+
+    public function ceshi($value = '') {
+        P($_SESSION['body']);
     }
 }

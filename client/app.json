@@ -6,7 +6,8 @@
     ],
     "script": [
         "config.js",
-        "vendor/babel-sdk/index.js",
+        "http://www.this7.com/vendor/this7/view/src/build/jquery.js",
+        "http://www.this7.com/vendor/this7/view/src/build/babel.js",
         "vendor/this7-sdk/index.js",
         "vendor/vue-sdk/index.js",
         "vendor/iview-sdk/index.js"
