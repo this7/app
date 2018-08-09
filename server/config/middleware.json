@@ -1,7 +1,6 @@
 {
-	"global":["server\\middleware\\overall"],
-    "middleware":
-    {
-        "auth": "server\\middleware\\auth"
-    }
+    "global": ["server\\middleware\\overall"],
+
+    "auth": "server\\middleware\\auth"
+
 }

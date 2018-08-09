@@ -6,11 +6,9 @@
     ],
     "script": [
         "config.js",
-        "http://www.this7.com/vendor/this7/view/src/build/jquery.js",
-        "http://www.this7.com/vendor/this7/view/src/build/babel.js",
         "vendor/this7-sdk/index.js",
+        "http://res.wx.qq.com/open/js/jweixin-1.2.0.js",
         "vendor/vue-sdk/index.js",
         "vendor/iview-sdk/index.js"
-
     ]
 }

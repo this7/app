@@ -16,23 +16,7 @@ class index6a992d5529f459a44fee58c733255e86 {
         echo "API安装方法：composer create-project this7/app blog --prefer-dist<br>";
         echo "当前路径：" . ROOT . "<br>";
         echo "当前网址：" . URL . "<br>";
+        wechat::getUserCode(ROOT);
     }
 
-    public function save($value = '') {
-        # code...
-    }
-
-    public function test($value = '') {
-        $ddd = request::post(array(
-            'url'  => 'http://www.this7.com/demo.php',
-            'data' => array(
-                'body' => 'const getMessage = () => "Hello World";document.getElementById(\'output\').innerHTML = getMessage();',
-            ),
-        ));
-        P($ddd);
-    }
-
-    public function ceshi($value = '') {
-        P($_SESSION['body']);
-    }
 }

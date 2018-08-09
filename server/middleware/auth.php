@@ -13,6 +13,6 @@ namespace server\middleware;
 class auth {
     //执行中间件
     public function run() {
-
+        //echo "特殊中间件";
     }
 }
