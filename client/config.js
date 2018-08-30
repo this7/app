@@ -2,10 +2,9 @@
  * @Author: qinuoyun
  * @Date:   2018-02-24 15:10:04
  * @Last Modified by:   else
- * @Last Modified time: 2018-06-22 09:27:53
+ * @Last Modified time: 2018-08-28 09:50:56
  * 配置文件
  */
-
 
 // 此处主机域名修改成腾讯云解决方案分配的域名
 var host = 'http://www.this7.com';

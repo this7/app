@@ -1,3 +1,4 @@
 {
-    "rearcode": ["wechat::jsSdkCode"]
+    "rearcode": [],
+    "prestrain":true
 }

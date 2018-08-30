@@ -2,13 +2,20 @@
     "title": "增删该查代码自动生成器",
     "style": [
         "app.css",
-        "vendor/iview-sdk/index.css"
+        "http://at.alicdn.com/t/font_792117_39ll2tjaoxv.css"
     ],
     "script": [
         "config.js",
+        "http://at.alicdn.com/t/font_792117_39ll2tjaoxv.js",
         "vendor/this7-sdk/index.js",
-        "http://res.wx.qq.com/open/js/jweixin-1.2.0.js",
-        "vendor/vue-sdk/index.js",
-        "vendor/iview-sdk/index.js"
-    ]
+        "vendor/wechat-sdk/index.js",
+        "vendor/vue-sdk/index.js"
+    ],
+    "components":
+    {
+        "this7": "components/this7"
+    },
+    "route":true,
+    "single": false,
+    "excludeRoute": ["login/index"]
 }

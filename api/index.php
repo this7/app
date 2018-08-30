@@ -17,7 +17,7 @@ class index {
     }
 
     public function demo($value = '') {
-
+        P(ROOT);
     }
 
 }
