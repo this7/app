@@ -2,8 +2,8 @@
 namespace server\connector;
 use \this7\framework\staticize;
 
-class debugad42f6697b035b7580e4fef93be20b4d extends staticize {
+class qrcode4441cd7e6b665842bd3d8b390dd9c3aa extends staticize{
     public static function getAppAccessor() {
-        return 'debug';
+        return 'qrcode';
     }
 }

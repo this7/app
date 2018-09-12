@@ -1,20 +1,15 @@
 {
-    "title": "增删该查代码自动生成器",
+    "title": "This7应用框架",
     "style": [
         "app.css",
-        "http://at.alicdn.com/t/font_792117_39ll2tjaoxv.css"
+        "http://unpkg.com/iview/dist/styles/iview.css"
     ],
     "script": [
         "config.js",
-        "http://at.alicdn.com/t/font_792117_39ll2tjaoxv.js",
-        "vendor/this7-sdk/index.js",
-        "vendor/wechat-sdk/index.js",
-        "vendor/vue-sdk/index.js"
+        "//lib.f2ex.cn/cdn/vue/2.0.3/vue.min.js",
+        "//lib.f2ex.cn/cdn/weixin/1.2.0/jweixin.js",
+        "http://unpkg.com/iview/dist/iview.min.js"
     ],
-    "components":
-    {
-        "this7": "components/this7"
-    },
     "route":true,
     "single": false,
     "excludeRoute": ["login/index"]
