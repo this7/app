@@ -1,5 +1,6 @@
 <?php
 define('DEBUG', true);
+define('XDEBUG', true); //DEBUG调试器
 
 // Autoload 自动载入
 require './vendor/autoload.php';
