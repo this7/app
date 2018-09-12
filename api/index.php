@@ -15,4 +15,9 @@ class index {
         echo "当前路径：" . ROOT . "<br>";
         echo "当前网址：" . URL . "<br>";
     }
+
+    public function demo($value = '') {
+        P(ROOT);
+    }
+
 }

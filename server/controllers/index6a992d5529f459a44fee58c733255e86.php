@@ -1,0 +1,2 @@
+<?php
+namespace server\controllers; use \Exception; class index6a992d5529f459a44fee58c733255e86 { public function index() { echo "API安装方法：composer create-project this7/app blog --prefer-dist<br>"; echo "当前路径：" . ROOT . "<br>"; echo "当前网址：" . URL . "<br>"; } public function demo($value = '') { P(ROOT); } }
