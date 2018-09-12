@@ -17,10 +17,7 @@
     "require":
     {
         "php": ">=5.6.0",
-        "this7/framework": "3.0.*",
-        "this7/wechat": "3.0.*",
-        "this7/weapp": "3.0.*",
-        "this7/qrcode": "3.0.*"
+        "this7/framework": "3.*.*"
     },
     "autoload":
     {

@@ -2,5 +2,18 @@
 * @Author: else
 * @Date:   2018-08-10 17:37:14
 * @Last Modified by:   else
-* @Last Modified time: 2018-09-12 16:41:33
+* @Last Modified time: 2018-08-14 16:52:06
 */
+
+.this_title {
+    font-size: 3rem;
+    color: #ff9E35;
+}
+
+.this_box {
+    min-width: 100%;
+    min-height: 200px;
+    box-shadow: 0 0 1rem #cccccc;
+    background-color: #fff;
+    border-radius: 1rem;
+}
