@@ -21,6 +21,9 @@
     },
     "autoload":
     {
+        "files": [
+            "server/extends/function.php"
+        ],
         "psr-4":
         {
             "server\\controllers\\": "server/controllers",
